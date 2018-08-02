@@ -20,3 +20,33 @@ can easily get recommendations of other new places to visit.
 
 The next ste is to implement another feature that will further provide the
 users with reviews from other reviewers regarding the places using third-party APIs.
+
+
+#Resource
+
+- Choose A License - Helpful website for picking out a license for an application.
+- Udacity - Helpful in learning contents and resources to guide.
+
+
+#How to Contribute
+
+Contributions are welcomes. If you find any typos, errors, or additional resources.
+First, fork this repository.
+
+You can Fork Icon the project.
+
+Or clone the repository to make changes.
+
+$ git clone {REPOSITORY_CLONE_URL}
+$ cd to the directory
+
+
+You can also Pull Request Icon by:
+
+Making a pull request. Once you've pushed changes to your local repository,
+you can issue a pull request by clicking on the pull request icon.
+
+
+#License 
+
+The contents of this repository are covered under the MIT License.
