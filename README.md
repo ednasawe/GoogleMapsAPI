@@ -1,7 +1,8 @@
 # GoogleMapsAPIs-and-StreetView-to-Navigate-Kenya
 
-The Application uses GoogleMaps APIs and the StreetView
-to provide locations and places to visit in Kenya.
+The Application uses GoogleMaps APIs, JavaScript API,
+and the StreetView to provide locations and places to
+visit in Kenya.
 
 The Application provides a map of Kenya and the neighbourhood
 areas that one can visit, example trending and new restaurants,
