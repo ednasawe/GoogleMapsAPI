@@ -1,52 +1,59 @@
+
 # GoogleMapsAPIs-and-StreetView-to-Navigate-Kenya
 
-The Application uses GoogleMaps APIs, JavaScript API,
-and the StreetView to provide locations and places to
-visit in Kenya.
+- The Application uses **GoogleMaps APIs, JavaScript API**,andthe
+**StreetView** to provide locations and places to visit in Kenya.
 
-The Application provides a map of Kenya and the neighbourhood
+- The Application provides a map of Kenya and the neighbourhood
 areas that one can visit, example trending and new restaurants,
-museums, and water parks..
+museums, and water parks, etc.
 
-The Application uses map markers to identify popular locations and
-places around Kenya that one would like to visit.
+- The Application uses map markers to identify popular locations
+and places around Kenya that one would like to visit.
 
-The application also provides a 360 street view of the places for
-the tourists to familiarize themselves with the streets and buildings
-close to these places.
+- The application also provides a 360 street view of the places
+for the tourists to familiarize themselves with the streets and
+buildings close to these places.
 
-Using a serach button and suggested listviews of the places, the tourist
-can easily get recommendations of other new places to visit.
+- Using a serach button and suggested listviews of the places,the
+tourist can easily get recommendations of other new places to visit.
 
-The next ste is to implement another feature that will further provide the
-users with reviews from other reviewers regarding the places using third-party APIs.
+- The next ste is to implement another feature that will further provide
+the users with reviews from other reviewers regarding the places using _third-party APIs._
 
-
-#Resource
-
-- Choose A License - Helpful website for picking out a license for an application.
-- Udacity - Helpful in learning contents and resources to guide.
+# Getting Started
+The project is a python project.
 
 
-#How to Contribute
+# Installation
+Clone the Github repository
+$ git clone git clone {REPOSITORY_CLONE_URL}
+$ cd to the clone directory
+
+
+# Resource
+
+- **Choose A License** - Helpful website for picking out a license for an application.
+- **Udacity** - Helpful in learning contents and resources to guide.
+
+
+# How to Contribute
 
 Contributions are welcomes. If you find any typos, errors, or additional resources.
-First, fork this repository.
+First, fork this repository. Please follow the contribution guidlines.
 
-You can Fork Icon the project.
-
-Or clone the repository to make changes.
+- You can Fork Icon the project.
+- Or clone the repository to make changes.
 
 $ git clone {REPOSITORY_CLONE_URL}
 $ cd to the directory
 
-
-You can also Pull Request Icon by:
+- You can also Pull Request Icon by:
 
 Making a pull request. Once you've pushed changes to your local repository,
 you can issue a pull request by clicking on the pull request icon.
 
 
-#License 
+# License
 
 The contents of this repository are covered under the MIT License.
