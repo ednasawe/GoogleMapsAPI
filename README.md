@@ -27,8 +27,9 @@ The project is a python project.
 
 # Installation
 Clone the Github repository
-$ git clone git clone {REPOSITORY_CLONE_URL}
-$ cd to the clone directory
+_$ git clone git clone {REPOSITORY_CLONE_URL}_
+
+_$ cd to the clone directory_
 
 
 # Resource
@@ -45,8 +46,9 @@ First, fork this repository. Please follow the contribution guidlines.
 - You can Fork Icon the project.
 - Or clone the repository to make changes.
 
-$ git clone {REPOSITORY_CLONE_URL}
-$ cd to the directory
+_$ git clone {REPOSITORY_CLONE_URL}_
+
+_$ cd to the directory_
 
 - You can also Pull Request Icon by:
 
