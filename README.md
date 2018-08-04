@@ -27,6 +27,7 @@ The project is a python project.
 
 # Installation
 Clone the Github repository
+
 _$ git clone git clone {REPOSITORY_CLONE_URL}_
 
 _$ cd to the clone directory_
