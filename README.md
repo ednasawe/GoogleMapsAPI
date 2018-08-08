@@ -22,7 +22,7 @@ tourist can easily get recommendations of other new places to visit.
 the users with reviews from other reviewers regarding the places using _third-party APIs._
 
 # Getting Started
-The project is a python project.
+The project is a **python and JavaScript** project.
 
 
 # Installation
