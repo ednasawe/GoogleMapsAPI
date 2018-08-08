@@ -1,5 +1,5 @@
 
-# GoogleMapsAPIs-and-StreetView-to-Navigate-Kenya
+# GoogleMapsAPI
 
 - The Application uses **GoogleMaps APIs, JavaScript API**,andthe
 **StreetView** to provide locations and places to visit in Kenya.
@@ -22,7 +22,7 @@ tourist can easily get recommendations of other new places to visit.
 the users with reviews from other reviewers regarding the places using _third-party APIs._
 
 # Getting Started
-The project is a **python and JavaScript** project.
+The project is a **python** and **JavaScript** project.
 
 
 # Installation
