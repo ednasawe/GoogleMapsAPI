@@ -1,69 +1,74 @@
-var myLocations = [
-    {
-        title: 'Discovery Docks Apartments',
-        lat: 51.501409,
-        lng:  -0.018823,
-        type: 'Living Quarters'
+var places = [
+    { 
+        title: "Nyambane National Reserve",
+        lat: 0.528142,
+        lng: 37.663328,
+        type: "National Park and Reserve"
     },
     {
-        title: 'Thome Restaurant',
-        lat: -1.221047,
-        lng: 36.880470,
-        type: 'Restaurant'
-      
+        title: "Nairobi National Park",
+        lat: -1.361230,
+        lng: 36.845089,
+        type: "National Park"
     },
     {
-        title: 'Canary Wharf Tube Station',
-        lat: 51.5034898,
-        lng: -0.0185944,
-        type:  'Transit'
+        title: "National Museums of Kenya-Karen Blixen Museum, Karen Road",
+        lat: -1.351574,
+        lng: 36.712450,
+        type: "National Museum"
     },
     {
-        title: 'One Canada Square',
-        lat: 51.5049494,
-        lng: -0.0194997,
-        type:  'Shopping'
+        title: "National Museums of Kenya -Uhuru Gardens, Langata Road",
+        lat: -1.324370,
+        lng:36.798454,
+        type: "National Museum and Garden"
     },
     {
-        title: 'The O2',
-        lat: 51.503039,
-        lng: 0.003154,
-        type: 'Entertainment'
+        title: "InterContinental Hotel, City Hall Way",
+        lat: -1.287667,
+        lng:36.819278,
+        type: "Restaurant"
     },
     {
-        title: 'Tesco Express',
-        lat: 51.500575,
-        lng: -0.017354,
-        type: 'Shopping'
+        title: "Nairobi Gallery",
+        lat: -1.286466,
+        lng:36.817851,
+        type: "Gallarey"
     },
     {
-        title: 'Firezza Pizza',
-        lat: 51.496268,
-        lng: -0.015511,
-        type: 'Restaurant'
+        title: "Nairobi Serena Hotel",
+        lat: -1.286820,
+        lng:36.814515,
+        type: "Restaurant"
     },
     {
-        title: 'The Breakfast Club',
-        lat: 51.506066,
-        lng: -0.017345,
-        type: 'Restaurant'
+        title: "Enchoro Wildlife Camp-Masai Mara",
+        lat: -1.284642,
+        lng:36.814118,
+        type: "Animal wildlife Park"
     },
     {
-        title: 'Shake Shack',
-        lat: 51.504905,
-        lng: -0.018967,
-        type: 'Restaurant'
+        title: "Laico Regency Hotel",
+        lat: -1.283999,
+        lng:36.816779,
+        type: "Restaurant"
     },
     {
-        title: 'Asda Superstore',
-        lat: 51.494206,
-        lng: -0.012714,
-        type: 'Shopping'
+        title: "Manyatta Backpackers, Milimani Road",
+        lat: -1.288532,
+        lng:36.802236,
+        type: "Restaurant"
     },
     {
-        title: 'Pizza Express',
-        lat: 51.505233,
-        lng: -0.021716,
-        type: 'Restaurant'
-    }
+        title: "Ndemi Place Guest House And Conferencing",
+        lat: -1.296571,
+        lng:36.776557,
+        type: "Restaurant"
+    },
+    {
+        title: " Bomas of Kenya",
+        lat: -1.336606,
+        lng: 36.769116,
+        type: "Hotel and Restaurant"
+    },
 ]
