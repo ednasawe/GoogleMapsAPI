@@ -1,5 +1,5 @@
 
-# GoogleMapsAPI
+# GoogleMapsAPIs-and-StreetView-to-Navigate-Kenya
 
 - The Application uses **GoogleMaps APIs, JavaScript API**,andthe
 **StreetView** to provide locations and places to visit in Kenya.
@@ -22,15 +22,13 @@ tourist can easily get recommendations of other new places to visit.
 the users with reviews from other reviewers regarding the places using _third-party APIs._
 
 # Getting Started
-The project is a **python** and **JavaScript** project.
+The project is a python project.
 
 
 # Installation
 Clone the Github repository
-
-_$ git clone git clone {REPOSITORY_CLONE_URL}_
-
-_$ cd to the clone directory_
+$ git clone git clone {REPOSITORY_CLONE_URL}
+$ cd to the clone directory
 
 
 # Resource
@@ -47,9 +45,8 @@ First, fork this repository. Please follow the contribution guidlines.
 - You can Fork Icon the project.
 - Or clone the repository to make changes.
 
-_$ git clone {REPOSITORY_CLONE_URL}_
-
-_$ cd to the directory_
+$ git clone {REPOSITORY_CLONE_URL}
+$ cd to the directory
 
 - You can also Pull Request Icon by:
 
