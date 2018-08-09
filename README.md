@@ -32,3 +32,21 @@ You can make modifications to the locations and add your own in the `js/markers.
 
 ## Live Example
 You can find a live running site of the application by clicking [here](https://bit.ly/2B1Euqe).
+
+## How to Contribute
+
+Contributions are welcomes. If you find any typos, errors, or additional resources. First, fork this repository. Please follow the contribution guidlines.
+
+* You can Fork Icon the project.
+* Or clone the repository to make changes.
+```
+$ git clone {REPOSITORY_CLONE_URL}
+$ cd to the directory
+```
+* You can also Pull Request Icon by:
+
+Making a pull request. Once you've pushed changes to your local repository, you can issue a pull request by clicking on the pull request icon.
+
+### License
+
+The contents of this repository are covered under the **MIT License**.
