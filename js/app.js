@@ -14,16 +14,16 @@ function AppViewModel() {
         if (infowindow.marker != marker) {
             infowindow.setContent('');
             infowindow.marker = marker;
-            // Foursquare API Client call
+            // The Foursquare API Client call
             clientID = "JPYPOHOOT5ZYG2MEOYJU1RYJTZR3JKHZBHFYWLVXP11L3EB2";
             clientSecret =
                 "B4DECH4D14D1TSI1MSDZUJQEMQ5MRTJV3SORCDJYGXDJMNBU";
-            // The URL for Foursquare API
+            // The places api URL for the Foursquare API
             var apiUrl = 'https://api.foursquare.com/v2/venues/search?ll=' +
                 marker.lat + ',' + marker.lng + '&client_id=' + clientID +
                 '&client_secret=' + clientSecret + '&query=' + marker.title +
                 '&v=20170708' + '&m=foursquare';
-            // Foursquare API
+            // Foursquare API call. All data requests are retrieved in an asynchronous manner
             $.getJSON(apiUrl).done(function(marker) {
                 var response = marker.response.venues[0];
                 self.street = response.location.formattedAddress[0];
@@ -72,10 +72,13 @@ function AppViewModel() {
     this.initMap = function() {
         var mapCanvas = document.getElementById('map');
         var mapOptions = {
-            center: new google.maps.LatLng(-1.324370,36.798454),
-            zoom: 13,
-            styles: styles
+            center: new google.maps.LatLng(-1.288532, 36.802236),
+            zoom: 12,
+            styles: styles,
+            mapTypeControlOptions: false
         };
+
+        
         // Constructor creates a new map - only center and zoom are required.
         map = new google.maps.Map(mapCanvas, mapOptions);
 
@@ -103,11 +106,10 @@ function AppViewModel() {
             this.marker.addListener('click', self.populateAndBounceMarker);
         }
     };
-
     this.initMap();
 
     // This block appends our locations to a list using data-bind
-    // It also serves to make the filter work
+    // It also serves to make the filter work of the locations
     this.myLocationsFilter = ko.computed(function() {
         var result = [];
         for (var i = 0; i < this.markers.length; i++) {
@@ -126,7 +128,7 @@ function AppViewModel() {
 
 googleError = function googleError() {
     alert(
-        'Oops. Google Maps did not load. Please refresh the page and try again!'
+        'Google Maps cannot load. Please refresh the page and try again!'
     );
 };
 

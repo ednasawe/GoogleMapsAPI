@@ -60,9 +60,9 @@ var places = [
         type: "Restaurant"
     },
     {
-        title: "Ndemi Place Guest House And Conferencing",
-        lat: -1.296571,
-        lng:36.776557,
+        title: "Rocaffé Restaurant",
+        lat: -1.215477,
+        lng:36.879133,
         type: "Restaurant"
     },
     {
@@ -71,4 +71,41 @@ var places = [
         lng: 36.769116,
         type: "Hotel and Restaurant"
     },
+    {
+        title: "Hotel Fairmont Mount Kenya Safari Club",
+        lat: -0.061507,
+        lng: 37.117585,
+        type: "Hotel"
+    },
+    {
+        title: "Cafe Villa Rosa, Nairobi",
+        lat: -1.271322,
+        lng: 36.808964,
+        type: "Restaurant"
+    },
+    {
+        title: "Java House, Orbit Place",
+        lat: -1.269520,
+        lng:36.809104,
+        type: "Cafe"
+    },
+    {
+        title: "Ngong Forest Sanctuary, Nairobi",
+        lat: -1.314421,
+        lng: 36.740525,
+        type: "Park"
+    },
+    {
+        title: "The Monarch Hotel, Rose Avenue, Kilimani, Nairobi",
+        lat: -1.295860,
+        lng: 36.795361,
+        type: " Hotel"
+    },
+    {
+        title: "Four Points by Sheraton Nairobi Hurlingham",
+        lat: -1.293736,
+        lng: 36.795264,
+        type: "Hotel"
+
+    }
 ]
