@@ -1,6 +1,6 @@
 # The Neighborhood Map
 This app is to demonstrate the ability to use a js framework (`knockout.js`) & Google Maps API.
-The application was made as a the penultimate final project for Udacity's Front-End Nanodegree.
+The application allows one to view places to visit in Nairobi.
 
 ## Code
 CSS - Two files make up the CSS files that are local. Bootstrap CSS is CDN based and not local, just easier to update as it is currently using **Bootstrap 4 Alpha**. CSS files that are included are:
